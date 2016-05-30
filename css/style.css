@@ -1,0 +1,513 @@
+
+.os{
+	background-color: #f00;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+body{
+	padding-top: 70px;
+
+}
+
+/*********************************************Overridding code************************************/
+/***************** start navbar***************/
+.navbar{
+	min-height: 70px;
+}
+
+/*active link*/
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus
+{
+	background-color: #f00;
+}
+
+/*   Navbar link*/
+.navbar-inverse .navbar-nav > li > a
+{
+	color: #BBB;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 16px;
+}
+.navbar-inverse .navbar-nav > li > a:hover
+{
+	background-color: #f00;
+}
+
+/*Brand Name*/
+.navbar-inverse .navbar-brand{
+	color: #BBB;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 32px;
+}
+.navbar-brand>span{
+	color: #f00;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 16px;
+}
+
+/*Dropdown menue*/
+.dropdown-menu{
+	background-color: #333;
+	border-top: 3px solid #f00;
+	min-width: 180px;
+}
+.navbar-right .dropdown-menu{
+	left: 0;
+	right: auto;
+}
+
+.dropdown-menu > li > a
+
+{
+	color: #fff;
+	padding: 6px 20px;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+	padding-left: 30px;
+	transition: padding 0.5s ease;
+	-webkit-transition: padding 0.5s ease;
+	-o-transition: padding 0.5s ease;
+	-moz-transition: padding 0.5s ease;
+	background-color: #f00;
+	color: #fff;
+}
+.dropdown-menu .divider{
+	background-color: #f00;
+}
+/*toggle*/
+.navbar-inverse .navbar-toggle{
+	padding-top: 10px;
+}
+/******************End navbar****************/
+/*********************************Carousel***********************************************/
+.img{
+	width: 100%;
+}
+.carousel-caption{
+	bottom: 80px;
+	background: rgba(3,3,3,0.3);
+}
+.carousel-indicators li{
+	height: 15px;
+	width: 15px;
+	border:1px solid #EEE;
+}
+.carousel-indicators .active{
+	height: 17px;
+	width: 17px;
+	background: #f00;
+}
+/*********************************************End OF Overridding code************************************/
+
+/********************************End Carousal*********************************************/
+/***************Section*********/
+/*****about****/
+.about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.about .lead{
+	color: #888;
+	font-size: 25px;
+	margin-top: 15px;
+}
+.about h1{
+	font-weight: bold;
+}
+.about h1 span{
+	color: #f00;
+}
+.about h3 span{
+	color: #f00;
+}
+
+/***features***/
+.features{
+	background: #EEE;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.features .feat span.glyphicon{
+
+	font-size: 25px;
+	color: #888;
+	margin-bottom: 10px;
+}
+
+.features .feat p{
+	line-height: 2em;
+}
+.features h1{
+	margin-bottom: 10px;
+}
+.features .feat{
+	margin-bottom: 30px;
+}
+
+/***********************End section*****************/
+/*testimonials*/
+.testimonials{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.testimonials h1{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.testimonials .lead{
+	line-height: 2em;
+	margin-bottom: 10px;
+}
+.testimonials span{
+	font-size: 18px;
+	font-weight: bold;
+	color: #f00;
+}
+.testimonials .carousel-inner{
+	min-height: 160px;
+}
+.testimonials .carousel-indicators{
+ 	position: static;
+ 	width: 100%;
+ 	margin-left: auto;
+ 	padding-top: 20px;
+ }
+  .testimonials .carousel-indicators li{
+  	text-indent: 0;
+  	width: 80px;
+  	height: 80px;
+  	opacity: 0.4;
+  	border: 3px solid #fff;
+  	border-radius: 50%;
+  	overflow: hidden;
+  	margin: 5px;
+  	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+
+  }
+    .testimonials .carousel-indicators li.active{
+    	background: none;
+    	opacity: 1;
+    	border: 3px solid #f00;
+    }
+    .testimonials .carousel-indicators li img{
+    	max-width: 100%;
+    }
+/**************************** start price box**********/
+.price-table{
+	background: #EEE;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.price-table h1{
+	margin-bottom: 40px;
+}
+.price-table .price-box{
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #DDD;
+	margin-bottom: 15px;/*for responsive*/
+}
+.price-table .price-box h3{
+	margin: 5px 0px 15px;
+
+}
+.price-table .price-box p{
+	font-size: 36px;
+	color: #666;
+	font-weight: bold;
+	width: 100px;
+	height: 100px;
+	background: #f5f5f5;
+	border-radius: 50%;
+	line-height: 100px;
+	-webkit-transition-duration:0.7s;
+	-moz-transition-duration:0.7s;
+	-o-transition-duration:0.7s;
+	transition-duration:0.7s;
+	border: 2px solid #fff;
+}
+.price-table .price-box ul{
+	line-height: 250%;
+	font-size: 18px;
+}
+.price-table .price-box a{
+	margin-bottom: 5px;
+}
+.price-table .price-box:hover p{
+	border: 2px solid #DFDFDF;
+	-webkit-transform: scale(1.1,1.1) rotate(360deg);
+	-moz-transform: scale(1.1,1.1) rotate(360deg);
+	-o-transform: scale(1.1,1.1) rotate(360deg);
+	transform: scale(1.1,1.1) rotate(360deg);
+}
+
+/***********End price box************/
+/*************start our team*************/
+.our-team{
+	background: url(../pic/giphy.gif)no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	min-height: 500px;
+	width: 100%;
+
+}
+.our-team .team{
+	background: rgba(2,2,2,0.75);
+	min-height: 500px;
+	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.our-team .team h1{
+	margin-bottom: 60px;
+}
+.our-team .team .person{
+	margin-bottom: 40px; /*responsive*/
+}
+.our-team .team .person img{
+	-webkit-transition-duration:0.7s;
+	-moz-transition-duration:0.7s;
+	-o-transition-duration:0.7s;
+	transition-duration:0.7s;
+}
+.our-team .team .person img:hover{
+	-webkit-transform: scale(1.1,1.1) ;
+	-moz-transform: scale(1.1,1.1) ;
+	-o-transform: scale(1.1,1.1) ;
+	transform: scale(1.1,1.1) ;
+}
+.our-team .team .person .fa:hover{
+	color:#79789e;
+}
+
+/**************End Our team***************/
+/******** Start Subscribe***********/
+.subscribe{
+	padding-top: 40px;
+	padding-bottom: 70px;
+	background: #EEE;
+}
+.subscribe h1{
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	color: #BBB;
+}
+.subscribe p{
+	
+	margin-bottom: 30px;
+}
+.subscribe .form-control{
+	border-radius: 0px;
+	margin-right: -5px;
+	width: 300px;
+}
+.subscribe .btn{
+	border-radius: 0px;
+}
+/******** End Subscribe***********/
+/******* Start Statistics *******/
+.statistics{
+	background: url(../pic/back.jpg) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	min-height: 300px;
+
+}
+.statistics .data{
+	background: rgba(2,2,2,0.7);
+	min-height: 300px;
+	color: #B6B5B5;
+	padding-bottom: 70px;
+	padding-top: 40px;
+}
+.statistics .data h1{
+	margin-bottom: 60px;
+}
+.statistics .data p{
+	font-weight: 600;
+	font-size: 40px;
+	margin-bottom: 0;
+}
+.statistics .data span{
+	font-size: 17px;
+}
+.statistics .stats{
+	margin-bottom: 30px;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+
+}
+.statistics .stats:hover{
+	color: #fff;
+}
+/******* End Statistics *******/
+/****************** Start skills*************/
+.our-skills{
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+.our-skills h1{
+	margin-bottom: 36px;
+}
+.our-skills h3{
+margin-top: 0px;
+font-weight: bold;
+}
+.our-skills .progress{
+	height: 36px;
+}
+.our-skills .progress-bar{
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: left;
+	text-indent: 10px;
+}
+/****************** End skills*************/
+/*Start Contact US*/
+.contact-us{
+	background: url(../pic/Contact-Us.png) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	min-height: 300px;
+}
+.contact-us .fields{
+	background: rgba(9,9,9,0.8);
+	min-height: 300px;
+	color: #DDD;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.contact-us p{
+	margin-bottom: 40px;
+}
+.contact-us textarea{
+	height: 108px;
+}
+.contact-us input[type='text'],
+.contact-us textarea{
+	background: rgba(82,78,78,0.7);
+	color: #fff;
+	border: none;
+}
+/*End Contact US*/
+/******************** Start Our Client*********************/
+.our-client{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #EEE;
+}
+.our-client img{
+	width: 126px;
+	height: 30px;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.our-client img:hover{
+	opacity: 1;
+	transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+}
+/******************** End Our Client*********************/
+/*Start Footer*/
+.footer{
+	background: #333;
+	color: #AAA;
+	padding-top: 10px;
+}
+.footer a{
+	color: #AAA;
+}
+.footer a:hover{
+	color: #FFF;
+}
+.footer h3{
+	color: #0895D1;
+	letter-spacing: 1px;
+	margin: 30px 0 20px;
+}
+.footer .first-list{
+	overflow: hidden;
+}
+.footer .first-list li{
+	float: left;
+	width: 33.333%;
+	padding: 5px 0;
+}
+.footer .sec-list{
+	overflow: hidden;
+	margin: 20px 0 10px;
+}
+.footer .sec-list li{
+	float: left;
+	margin-right: 3px;
+
+
+}
+.footer .sec-list img{
+	width: 48px;
+	height: 48px;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+.footer .sec-list img:hover{
+	opacity: 1;
+	transition: all 0.7s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+}
+.footer .media img{
+	width: 64px;
+	height: 64px;
+}
+.footer .work img{
+	width: 150px;
+	height: 100px;
+	background: rgba(0,0,0,0.2);
+	border: 1px solid #444;
+	margin-bottom: 5px;
+}
+.footer .work img:hover{
+	-webkit-transform: scale(1.1,1.1) ;
+	-moz-transform: scale(1.1,1.1) ;
+	-o-transform: scale(1.1,1.1) ;
+	transform: scale(1.1,1.1) ;
+
+}
+.footer .copyright{
+	
+	background-color: #111;
+	color: #AAA;
+	padding:10px ;
+	font-size: 18px;
+}
+.footer .copyright span{
+	color: #0895D1;
+	font-size: 15px;
+}
+/*End Footer*/
